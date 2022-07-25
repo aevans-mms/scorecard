@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>ScoresApp</title>
+        <link rel="stylesheet"  href="scores.css"/> 
+         
+    </head>
+    <body>
+        <div id="app" class="app_container">
+
+            <header>
+                <div class="heading">
+                    <img class="logo" src="/src/assets/svelte.svg"/>
+                    <h1 class="centered">ScoresApp</h1>
+                </div>
+            </header>
+
+            <main class="main centered">
+
+                    <div class="team card" id="team1">
+                        <select name="team1" class="team selector">
+                            <option disabled selected>Choose Team 1</option>
+                            <option>England</option>
+                            <option>USA</option>
+                            <option>India</option>
+                        </select>
+                        <div class="justified">
+                            <button class="counter">
+                                <span class="team_label">India</span>
+                                 :  
+                                <span class="team_score">1</span>
+                            </button>
+                            <button>reset</button>
+                        </div>
+                    </div>
+
+                    <div class="team card" id="team2">
+                        <select name="team2" class="team selector">
+                            <option disabled selected>Choose Team 2</option>
+                            <option>England</option>
+                            <option>USA</option>
+                            <option>India</option>
+                        </select>
+                        <div class="justified">
+                            <button class="counter">
+                                <span class="team_label">India</span>
+                                 : 
+                                <span class="team_score">1</span>
+                            </button>
+                            <button>reset</button>
+                        </div>
+                    </div>
+            </main>
+
+            <footer class="justified">
+                    <div>Left</div>
+                    <div>Right</div>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+
+<script>
+    const team1 = {
+        name: "India",
+        score: 2
+    }
+
+    const team2 = {
+        name: "Japan",
+        score: 2
+    }
+</script>
+<script src="scores.js"></script>
+</html>
