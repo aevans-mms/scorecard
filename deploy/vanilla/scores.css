@@ -1,0 +1,101 @@
+
+:root {
+    --scores-primary: rgb(255,62,0);
+}
+
+body, html {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.app_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+header, footer {
+    /* border: 1px dotted gray; */
+    margin: 1em;
+}
+
+main {
+    flex: 1;
+}
+
+
+h1 {
+    color: var(--scores-primary);
+    margin: 0; 
+}
+
+select, button, input, textarea {
+    font-size: 1.0rem;
+    padding: 0.25ch 1ch;
+    margin: 0.25rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+button {
+    border: 0;
+    background-color: #DDD;
+}
+
+.centered {
+    text-align: center;   
+}
+
+.centered {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading {
+    padding-bottom: 1rem;
+    white-space: nowrap;
+}
+
+.heading > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.heading .logo {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.justified {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+    white-space: nowrap;
+}
+
+.justified > * {
+    /* border: 1px dotted gray; */
+    margin: 0 1em;
+}
+
+.card {
+    margin: 1em;
+    padding: 1em;
+    
+    border: 1px solid gray;
+    /* background-color: #EEE; */
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
