@@ -3,16 +3,6 @@
 
 	import Heading from './lib/Heading.svelte'
 	import TeamSelector from './lib/TeamSelector.svelte'
-	import ScoreButton from './lib/ScoreButton.svelte'
-
-
-	export let team1 = "India";
-	export let team2 = "England";
-	
-	const default_teams = [
-		{"name": "India"},
-		{"name": "England"}
-	]
 
 	onMount(fetchTeams);
 
@@ -32,12 +22,12 @@
 
 	<div class="card">
 		<h4>Team 1</h4>
-		<TeamSelector forCounter="team1"/>
+		<TeamSelector/>
 	</div>
 
 	<div class="card">
 		<h4>Team 2</h4>
-		<TeamSelector forCounter="team2"/>
+		<TeamSelector/>
 	</div>
 </main>
 

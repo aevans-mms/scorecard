@@ -4,7 +4,7 @@
     import ScoreButton from './ScoreButton.svelte';
 	// import { getContext } from 'svelte';
 
-	export let forCounter;
+	// export let forCounter;
 	let value;
 	
 	function setTeam(value) {
