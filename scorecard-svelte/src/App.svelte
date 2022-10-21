@@ -9,7 +9,7 @@
 	async function fetchTeams() {
 		console.log("App.fetchTeams()");
 		
-		let teams_endpoint = "http://localhost:5173/api/teams.json";
+		let teams_endpoint = "https://scoresapp.netlify.app/api/teams.json";
 		const response = await fetch(teams_endpoint);
 		let teamlist = await response.json();
 		console.log("teamlist", teamlist);
