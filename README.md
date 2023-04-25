@@ -2,6 +2,18 @@
 
 An app to keep track of scores in a game
 
-to start:
 
-`npm run dev`
+To start the client (requires node.js):
+
+```
+    cd scorecard-svelte
+    npm install
+    npm run dev
+```
+
+To start the server (requires java):
+
+```
+    cd scorecard-api-springboot
+    mvn spring-boot:run
+```
