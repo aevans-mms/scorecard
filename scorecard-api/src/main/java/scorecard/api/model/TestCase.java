@@ -1,4 +1,4 @@
-package scorecard.api.model;
+package testcases.api.model;
 
 import scorecard.api.controller.TestController;
 
