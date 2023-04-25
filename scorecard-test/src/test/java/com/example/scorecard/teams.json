@@ -1,0 +1,37 @@
+{
+	"1" : {
+		"id" : 1,
+		"name" : "Argentina",
+		"league" : "West"
+	},
+	"2" : {
+		"id" : 2,
+		"name" : "Canada",
+		"league" : "West"
+	},
+	"3" : {
+		"id" : 3,
+		"name" : "India",
+		"league" : "East"
+	},
+	"4" : {
+		"id" : 4,
+		"name" : "England",
+		"league" : "East"
+	},
+	"5" : {
+		"id" : 5,
+		"name" : "Mexico",
+		"league" : "West"
+	},
+	"6" : {
+		"id" : 6,
+		"name" : "South Africa",
+		"league" : "East"
+	},
+	"7" : {
+		"id" : 7,
+		"name" : "USA",
+		"league" : "West"
+	}
+}
