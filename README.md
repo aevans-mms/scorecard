@@ -14,6 +14,6 @@ To start the client (requires node.js):
 To start the server (requires java):
 
 ```
-    cd scorecard-api-springboot
+    cd scorecard-api
     mvn spring-boot:run
 ```
