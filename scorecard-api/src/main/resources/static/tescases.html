@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Scorecard</title>
+</head>
+<body>
+	<h1>Testcase API</h1>
+	<ul>
+		<li>GET /testcases</li>
+		<li>GET /testcases/{id}</li>
+		<li>POST /testcases/{id}
+			<pre>
+				{
+					"id" : 1,
+					"title" : "sample test case",
+					"description" : "this is an awesome test",
+					"categories" : [ "smoke", "regression" ]
+				  }
+			</pre>
+		</li>
+		<li>PUT /testcases/{id}
+			<pre>
+				{
+					"id" : 1,
+					"title" : "sample test case",
+					"description" : "update description",
+					"categories" : [ "smoke", "regression", "additional category" ]
+				  }
+			</pre>
+		</li>
+		<li>DELETE /testcases/{id}</li>
+	</ul>
+</body>
+</html>
