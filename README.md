@@ -17,3 +17,6 @@ To start the server (requires java):
     cd scorecard-api
     mvn spring-boot:run
 ```
+
+Note that the client, server, and database are NOT connected (to simplify deployment and testing)
+
